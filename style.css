@@ -1,0 +1,1023 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    /* background-color: #1862b6; */
+}
+.nav1{
+    height: 8%;
+    width: 100%;
+    background-color: #0e0d0d; 
+    color: #fff;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'OnePlus Sans Regular','Helvetica Neue',Helvetica,Arial,sans-serif,system-ui;
+}
+.nav1 h4{
+    font-size: 30px;
+    font-weight: 100;
+}
+.nav1 a{
+    font-size: 20px;
+    text-decoration:none;
+    color: #fff;
+}
+.nav2{
+    height: 8%;
+    width: 100%;
+    background-color: #fff; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+    font-family: 'OnePlus Sans Regular','Helvetica Neue',Helvetica,Arial,sans-serif,system-ui;
+}
+.nav2 h6{
+    font-size: 15px;
+    font-weight: 200;
+}
+.nav2 img{
+    height: 70px;
+}
+#center{
+    height: 80%;
+    width: 100%;
+    /* background-color: crimson; */
+    display: flex;
+    font-family: 'OnePlus Sans Regular','Helvetica Neue',Helvetica,Arial,sans-serif,system-ui;
+}
+.left{
+    height: 100%;
+    width: 35%;
+    /* background-color: skyblue; */
+    border: 5px solid white;
+}
+.left h1{
+    font-size: 45px;
+    padding: 10%;
+    font-weight: 500;
+}
+.bottom{
+    height: 40%;
+    width: 100%;
+    /* background-color: royalblue; */
+    margin-top: 38%;
+    padding: 10%;
+}
+.bottom h5{
+    font-size: 15px;
+    font-weight: 100;
+}
+.bottom h3{
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 8%;
+}
+.btn button{
+    width: 40%;
+    font-size: 18px;
+    margin-top: 2%;
+    background-color: black;
+    color: white;
+    transition: cubic-bezier(0.19, 1, 0.22, 1)1s;
+    cursor: pointer;
+}
+.btn button:hover{
+    scale: 105%;
+    background-color:transparent;
+    color: #0e0d0d;
+}
+.right{
+    height: 100%;
+    width: 65%;
+    background-color: #0e0d0d;
+    border: 15px solid white;
+}
+.right img{
+    /* height: 100%;
+    width: 100%; */
+    cursor: zoom-in;
+    transition:cubic-bezier(0.19, 1, 0.22, 1)1s;
+    padding-left: 20%; 
+    padding-top: 8%;   
+}
+.right img:hover{
+    scale: 110%;
+    
+}
+#page1{
+    height: 70%;
+    width: 100%;
+    /* background-color: crimson; */
+    display: flex;
+    font-family: 'OnePlus Sans Regular','Helvetica Neue',Helvetica,Arial,sans-serif,system-ui;
+
+}
+#page1 .left1{
+    height: 100%;
+    width: 50%;
+    background-color:#F8F8F8;
+    display: flex;
+    border: 35px solid white;
+}
+.left1 .side1{
+    height: 100%;
+    width: 50%;
+    /* background-color: red; */
+}
+.side1 h1{
+    font-size: 40px;
+    padding: 8%;
+    font-weight: 500;
+}
+.bottom1{
+    height: 40%;
+    width: 100%;
+    /* background-color: #7ec7c1; */
+    margin-top: 10%;
+    padding: 10%;
+}
+.bottom1 h5{
+    font-size: 15px;
+    font-weight: 100;
+}
+.bottom1 h4{
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 8%;
+}
+.btn1 button{
+    width: 40%;
+    font-size: 18px;
+    margin-top: 5%;
+    background-color: black;
+    color: #fff;
+    transition: cubic-bezier(0.19, 1, 0.22, 1)1s;
+    cursor: pointer;
+}
+.btn1 button:hover{
+    scale: 105%;
+    background-color:transparent;
+    color: #0e0d0d;
+}
+.left1 .side2{
+    height: 100%;
+    width: 50%;
+    /* background-color:orchid; */
+}
+.side2 img{
+    height: 80%;
+    width: 100%;
+    padding-top: 20%;
+    cursor: pointer;
+    transition: cubic-bezier(0.19, 1, 0.22, 1)1s;
+}
+.side2 img:hover{
+    scale: 110%;
+}
+#page1 .right1{
+    height: 100%;
+    width: 50%;
+    background-color: #F8F8F8;
+    display: flex;
+    border: 35px solid white;
+}
+.right1 .side3{
+    height: 100%;
+    width: 50%;
+    /* background-color: red; */
+}
+.side3 h4{
+    font-size: 20px;
+    font-weight: 100;
+    padding-left: 6%;
+    padding-top: 5%;
+}
+.side3 h1{
+    font-size: 40px;
+    padding: 5%;
+    font-weight: 500;
+}
+.bottom2{
+    height: 40%;
+    width: 100%;
+    /* background-color: #7ec7c1; */
+    margin-top: 10%;
+    padding: 10%;
+}
+.bottom2 h5{
+    font-size: 15px;
+    font-weight: 100;
+}
+.bottom2 h3{
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 8%;
+}
+.button button{
+    width: 40%;
+    font-size: 18px;
+    margin-top: 5%;
+    background-color: black;
+    color: #fff;
+    transition: cubic-bezier(0.19, 1, 0.22, 1)1s;
+    cursor: pointer;
+}
+.button button:hover{
+    scale: 105%;
+    background-color:transparent;
+    color: #0e0d0d;
+}
+.right1 .side4{
+    height: 100%;
+    width: 50%;
+    /* background-color:orchid; */
+    justify-content: center;
+    display: flex;
+}
+.side4 img{
+    height: 80%;
+    width: 65%;
+    padding-top: 20%;
+    cursor: pointer;
+    transition: cubic-bezier(0.19, 1, 0.22, 1)1s;
+}
+.side4 img:hover{
+    scale: 110%;
+}
+#page2{
+    height: 100%;
+    width: 100%;
+    /* background-color: #f756f7; */
+    font-family: 'OnePlus Sans Regular','Helvetica Neue',Helvetica,Arial,sans-serif,system-ui;
+}
+.navbar{
+    height: 10%;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    align-items: end;
+    border-bottom: 2px solid rgba(78, 76, 76, 0.13);
+}
+.navbar h3{
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 5%;
+}
+.bar{
+    height: 10%;
+    width: 100%;
+    /* background-color: olive; */
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+    gap: 2%;
+}
+.bar h3{
+    font-size: 20px;
+    font-weight: 100;
+}
+.center1{
+    height: 80%;
+    width: 100%;
+    /* background-color: #907391; */
+    display: flex;
+    border: 10px solid white;
+}
+.box1{
+    height: 100%;
+    width: 25%;
+    /* background-color: darkgray; */
+    border: 10px solid white;
+}
+.box1 .part1{
+    height: 60%;
+    width: 100%;
+    background-color:#F8F8F8;
+}
+.part1 img{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    transition: cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+}
+.part1 img:hover{
+    scale: 110%;
+}
+.part2 h2{
+    font-size: 30px;
+    font-weight: 100;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+.part2 h4{
+    font-size: 15px;
+    font-weight: 100;
+    padding-top: 3%;
+    padding-left: 5%;
+}
+.part2 button{
+    width: 50%;
+    font-size: 23px;
+    margin-top: 10%;
+    margin-left: 20%;
+    font-weight: 100;
+    background-color: transparent;
+    border: transparent;
+    transition: cubic-bezier(0.19, 1, 0.22, 1)1s;
+}
+.part2 button:hover{
+    scale: 110%;
+    background-color :black;
+    color:#fff
+}
+.box2{
+    height: 100%;
+    width: 25%;
+    border: 10px solid white;
+    /* background-color: rgb(139, 180, 120); */
+}
+.box2 .part3{
+    height: 60%;
+    width: 100%;
+    background-color:#F8F8F8;
+}
+.part3 img{
+    height: 80%;
+    width: 100%;
+    margin-top:10%;
+    cursor: pointer;
+    transition: cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+}
+.part3 img:hover{
+    scale: 105%;
+}
+.part4 h2{
+    font-size: 28px;
+    font-weight: 100;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+.part4 h4{
+    font-size: 15px;
+    font-weight: 100;
+    padding-top: 3%;
+    padding-left: 5%;
+}
+.part4 button{
+    width: 50%;
+    font-size: 23px;
+    margin-top: 10%;
+    margin-left: 20%;
+    font-weight: 100;
+    background-color: transparent;
+    border: transparent;
+    transition: cubic-bezier(0.19, 1, 0.22, 1)1s;
+}
+.part4 button:hover{
+    scale: 110%;
+    background-color :black;
+    color:#fff
+}
+.box3{
+    height: 100%;
+    width: 25%;
+    border: 10px solid white;
+    /* background-color: rgb(113, 114, 153); */
+}
+.box3 .part5{
+    height: 60%;
+    width: 100%;
+    background-color:#F8F8F8;
+}
+.part5 img{
+    height: 80%;
+    width: 105%;
+    margin-top:10%;
+    cursor: pointer;
+    padding-right: 5%;
+    transition: cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+}
+.part5 img:hover{
+    scale: 110%;
+}
+.part6 h2{
+    font-size: 28px;
+    font-weight: 100;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+.part6 h5{
+    font-size: 15px;
+    font-weight: 100;
+    padding-top: 3%;
+    padding-left: 5%;
+}
+.part6 button{
+    width: 50%;
+    font-size: 23px;
+    margin-top: 5%;
+    margin-left: 20%;
+    font-weight: 100;
+    background-color: transparent;
+    border: transparent;
+    transition: cubic-bezier(0.19, 1, 0.22, 1)1s;
+}
+.part6 button:hover{
+    scale: 110%;
+    background-color :black;
+    color:#fff
+}
+.box4{
+    height: 100%;
+    width: 25%;
+    border: 10px solid white;
+    /* background-color: rgb(163, 109, 139); */
+}
+.box4 .part7{
+    height: 60%;
+    width: 100%;
+    background-color:#F8F8F8;
+}
+.part7 img{
+    height: 80%;
+    width: 100%;
+    margin-top:10%;
+    cursor: pointer;
+    padding-right: 5%;
+    transition: cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+}
+.part7 img:hover{
+    scale: 110%;
+}
+.part8 h2{
+    font-size: 28px;
+    font-weight: 100;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+.part8 h4{
+    font-size: 15px;
+    font-weight: 100;
+    padding-top: 3%;
+    padding-left: 5%;
+}
+.part8 button{
+    width: 50%;
+    font-size: 23px;
+    margin-top: 5%;
+    margin-left: 20%;
+    font-weight: 100;
+    background-color: transparent;
+    border: transparent;
+    transition: cubic-bezier(0.19, 1, 0.22, 1)1s;
+}
+.part8 button:hover{
+    scale: 110%;
+    background-color :black;
+    color:#fff
+}
+#page3{
+    height: 80%;
+    width: 100%;
+    background-color:black;
+    display: flex;
+    font-family: 'OnePlus Sans Regular','Helvetica Neue',Helvetica,Arial,sans-serif,system-ui;
+}
+.child1{
+    height: 100%;
+    width: 35%;
+    /* background-color: olive; */
+}
+.child1  h4{
+    font-size: 22px;
+    font-weight: 100;
+    padding-top: 10%;
+    padding-left: 5%;
+    color: white;
+}
+.child1 h1{
+    font-size: 50px;
+    font-weight: 600;
+    padding-top: 0%;
+    padding-left: 5%;
+    color: white;
+}
+.last p{
+    font-size: 16px;
+    margin-top: 25%;
+    margin-left: 5%;
+    color: white;
+}
+.last h3{
+    font-size: 28px;
+    padding-top: 3%;
+    margin-left: 5%;
+    color: white;
+}
+.last button{
+    width: 30%;
+    font-size: 20px;
+    margin-top: 3%;
+    margin-left: 5%;
+    font-weight: 100;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    transition: cubic-bezier(0.19, 1, 0.22, 1)1s;
+}
+.last button:hover{
+    scale: 110%;
+    background-color :white;
+    color:black;
+}
+.child2{
+    height: 100%;
+    width: 65%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    object-fit: cover;
+}
+.child2 img{
+    width: 100%;
+    height: 100%;
+    cursor: zoom-in;
+    transition: cubic-bezier(0.19, 1, 0.22, 1)1s;
+}
+.child2 img:hover{
+    scale: 110%;
+}
+#page4{
+    height: 100%;
+    width: 100%;
+    background-color:black;
+    font-family: 'OnePlus Sans Regular','Helvetica Neue',Helvetica,Arial,sans-serif,system-ui;
+}
+#page4 .bar{
+    height: 10%;
+    width: 100%;
+    /* background-color: rgb(175, 119, 119); */
+    display: flex;
+    align-items: end;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.24);
+}
+.bar h2{
+    font-size: 22px;
+    font-weight: 100;
+    color: #fff;
+}
+.bar2{
+    height: 30%;
+    width: 100%;
+    /* background-color: crimson; */
+    display: flex;
+    align-items: center;
+    
+}
+.bar2 h1{
+    font-size: 52px;
+    font-weight: 100;
+    margin-left: 5%;
+    color: #fff;
+}
+#center1{
+    height: 60%;
+    width: 100%;
+    /* background-color: rgb(158, 135, 158); */
+    display: flex;
+}
+.item1{
+    height: 100%;
+    width: 60%;
+    /* background-color: rgb(238, 201, 207); */
+    overflow: hidden;
+    border: 40px solid black;
+}
+.item1 img{
+    width: 100%;
+    height: 100%;
+    cursor: zoom-in;
+    transition: cubic-bezier(0.19, 1, 0.22, 1)1s;
+}
+.item1 img:hover{
+    scale: 110%;
+}
+.item2{
+    height: 100%;
+    width: 40%;
+    /* background-color: aquamarine; */
+}
+.item2 h3{
+    font-size: 25px;
+    font-weight: 100;
+    padding-top: 3%;
+    margin-left: 5%;
+    color: white;
+}
+.item2 h1{
+    font-size: 50px;
+    font-weight: 600;
+    padding-top: 0%;
+    padding-left: 5%;
+    color: white;
+}
+#last1 h4{
+    font-size: 16px;
+    font-weight: 100;
+    padding-top: 30%;
+    padding-left: 5%;
+    color: white;
+}
+#last1 h6{
+    width: 15%;
+    font-size: 15px;
+    text-decoration: underline;
+    color: #fff;
+    padding-top: 25px;
+    margin-left: 5%;
+    font-weight: 100;
+    transition: cubic-bezier(0.19, 1, 0.22, 1);
+    /* background-color: #fff; */
+    cursor: pointer;
+}
+#last1 h6:hover{
+    scale: 100px;
+    color: royalblue;
+}
+#page5{
+    height: 100%;
+    width: 100%;
+    background-color:black;
+    font-family: 'OnePlus Sans Regular','Helvetica Neue',Helvetica,Arial,sans-serif,system-ui;
+}
+#page5 .navi1{
+    height: 10%;
+    width: 100%;
+    /* background-color: rgb(175, 119, 119); */
+    display: flex;
+    align-items: end;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.24);
+}
+.navi1 h4{
+    font-size: 22px;
+    font-weight: 100;
+    color: #fff;
+    margin-left: 5%;
+}
+.navi2{
+    height: 25%;
+    width: 100%;
+    /* background-color: crimson; */
+    display: flex;
+    align-items: center;
+    
+}
+.navi2 h1{
+    font-size: 52px;
+    font-weight: 100;
+    margin-left: 5%;
+    color: #fff;
+}
+#middle{
+    height: 65%;
+    width: 100%;
+    /* background-color: rgb(158, 135, 158); */
+    display: flex;
+}
+.face1{
+    height: 100%;
+    width: 40%;
+    /* background-color: aquamarine; */
+}
+.face1 h1{
+    font-size: 50px;
+    font-weight: 600;
+    padding-top: 0%;
+    padding-left: 10%;
+    color: white;
+}
+.last2 h5{
+    font-size: 16px;
+    font-weight: 100;
+    padding-top: 30%;
+    padding-left: 10%;
+    color: white;
+}
+.last2 h6{
+    width: 15%;
+    font-size: 15px;
+    text-decoration: underline;
+    color: #fff;
+    padding-top: 25px;
+    margin-left: 10%;
+    font-weight: 100;
+    transition: cubic-bezier(0.19, 1, 0.22, 1);
+    /* background-color: #fff; */
+    cursor: pointer;
+}
+.last2 h6:hover{
+    scale: 100px;
+    color: royalblue;
+}
+.face2{
+    height: 100%;
+    width: 60%;
+    /* background-color: rgb(238, 201, 207); */
+    overflow: hidden;
+    border: 20px solid black;
+}
+.face2 img{
+    width: 100%;
+    height: 100%;
+    cursor: zoom-in;
+    transition: cubic-bezier(0.19, 1, 0.22, 1)1s;
+}
+.face2 img:hover{
+    scale: 110%;
+}
+#page6{
+    height: 70%;
+    width: 100%;
+    background-color:black;
+    display: flex;
+    /* border: 10px solid black; */
+    font-family: 'OnePlus Sans Regular','Helvetica Neue',Helvetica,Arial,sans-serif,system-ui;
+}
+.book1{
+    height: 90%;
+    width: 25%;
+    background-color: #222222;
+    /* border: 10px solid black; */
+}
+.book1 h4{
+    font-size: 25px;
+    font-weight: 100;
+    padding-top: 5%;
+    margin-left: 5%;
+    color: rgba(128, 128, 128, 0.39);
+}
+.book1 h1{
+    font-size: 40px;
+    font-weight: 100;
+    margin-left: 5%;
+    padding-top: 5%;
+    color: #fff;
+}
+.break1 h5{
+    font-size: 15px;
+    font-weight: 100;
+    padding-top: 30%;
+    margin-left: 5%;
+    color: #fff;
+}
+.break1 h6{
+    width: 35%;
+    font-size: 14px;
+    text-decoration: underline;
+    color: #fff;
+    padding-top: 25px;
+    margin-left: 5%;
+    font-weight: 100;
+    transition: cubic-bezier(0.19, 1, 0.22, 1)1s;
+    /* background-color: #fff; */
+    cursor: pointer;
+}
+.break1 h6:hover{
+    scale: 100%;
+    color: blue;
+}
+.book2{
+    height: 90%;
+    width: 25%;
+    /* background-color: rgb(196, 146, 194); */
+    /* border: 10px solid black; */
+    overflow: hidden;
+}
+.book2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: cubic-bezier(0.19, 1, 0.22, 1)1s;
+}
+.book2 img:hover{
+    scale: 110%;
+}
+.book3{
+    height: 90%;
+    width: 25%;
+    /* border: 12px solid black; */
+    background-color: #222222;
+}
+.book3 h4{
+    font-size: 25px;
+    font-weight: 100;
+    padding-top: 5%;
+    margin-left: 5%;
+    color: rgba(128, 128, 128, 0.39);
+}
+.book3 h1{
+    font-size: 40px;
+    font-weight: 100;
+    margin-left: 5%;
+    padding-top: 5%;
+    color: #fff;
+}
+.break2 p{
+    margin-top: 7%;
+    font-size: 16px;
+    font-weight: 100;
+    padding-top: 7%;
+    margin-left: 5%;
+    color: #fff;
+}
+.break2 h6{
+    width: 35%;
+    font-size: 14px;
+    text-decoration: underline;
+    color: #fff;
+    padding-top: 25px;
+    margin-left: 5%;
+    font-weight: 100;
+    transition: cubic-bezier(0.19, 1, 0.22, 1)1s;
+    /* background-color: #fff; */
+    cursor: pointer;
+}
+.break2 h6:hover{
+    scale: 100%;
+    color: blue;
+}
+.book4{
+    height: 90%;
+    width: 25%;
+    /* border: 10px solid black; */
+    /* background-color: rgb(100, 190, 250); */
+    overflow: hidden;
+}
+.book4 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: cubic-bezier(0.19, 1, 0.22, 1)1s;
+    
+}
+.book4 img:hover{
+    scale: 110%;
+}
+#page7{
+    height: 100%;
+    width: 100%;
+    background-color:black;
+    font-family: 'OnePlus Sans Regular','Helvetica Neue',Helvetica,Arial,sans-serif,system-ui;
+}
+.rec1{
+    height: 10%;
+    width: 100%;
+    /* background-color: rgb(175, 119, 119); */
+    display: flex;
+    align-items: end;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.24);
+
+}
+.rec1 h4{
+    font-size: 22px;
+    font-weight: 100;
+    color: #fff;
+    margin-left: 5%;
+}
+.rec2{
+    height: 25%;
+    width: 100%;
+    /* background-color: crimson; */
+    display: flex;
+    align-items: center;
+    
+}
+.rec2 h1{
+    font-size: 52px;
+    font-weight: 100;
+    margin-left: 5%;
+    color: #fff;
+}
+#photo{
+    height: 65%;
+    width: 100%;
+    /* background-color: rgb(158, 135, 158); */
+    display: flex;
+}
+.div1{
+    height: 100%;
+    width: 60%;
+    /* background-color: aquamarine; */
+}
+.dd1{
+    height: 90%;
+    width: 95%;
+    /* background-color: rgb(148, 111, 118); */
+    margin-top: 3%;
+    margin-left: 2%;
+    overflow: hidden;
+}
+.dd1 img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    transition: cubic-bezier(0.19, 1, 0.22, 1)1s;
+}
+.dd1 img:hover{
+    scale: 110%;
+}
+.div2{
+    height: 100%;
+    width: 40%;
+    /* background-color: rgb(96, 112, 107); */
+}
+.div2 h1{
+    font-size: 50px;
+    font-weight: 500;
+    padding-top: 10%;
+    padding-left: 5%;
+    color: white;
+}
+.div2 h5{
+    font-size: 16px;
+    font-weight: 100;
+    padding-top: 32%;
+    padding-left: 5%;
+    color: white;
+}
+.div2 h6{
+    width: 15%;
+    font-size: 15px;
+    text-decoration: underline;
+    color: #fff;
+    padding-top: 30px;
+    margin-left: 5%;
+    font-weight: 100;
+    transition: cubic-bezier(0.19, 1, 0.22, 1);
+    /* background-color: #fff; */
+    cursor: pointer;
+}
+.div2 h6:hover{
+    scale: 100px;
+    color: royalblue;
+}
+/* #page8{
+    height: 95%;
+    width: 100%;
+    background-color:#fff;
+    font-family: 'OnePlus Sans Regular','Helvetica Neue',Helvetica,Arial,sans-serif,system-ui;
+}
+.anmi1{
+    height: 10%;
+    width: 100%;
+    background-color: rgb(175, 119, 119);
+    display: flex;
+    align-items: end;
+    border-bottom: 1px solid rgba(129, 127, 127, 0.815);
+    
+}
+.anmi1 h4{
+    font-size: 22px;
+    font-weight: 100;
+    margin-left: 5%;
+    width: 50%;
+    padding-bottom: 15px;
+    background-color: #fff; 
+}
+.anmi1 h6{
+    width: 20%;
+    font-size: 15px;
+     text-decoration: underline; 
+    padding-top: 25px;
+    margin-left: 60%;
+    font-weight: 100;
+    padding-bottom: 15px;
+    background-color: #c75656; 
+    transition: cubic-bezier(0.19, 1, 0.22, 1);
+     background-color: #fff; 
+    cursor: pointer;
+    
+}
+.anmi1 h6:hover{
+    scale: 100%;
+    color:blue;
+}
+#power{
+    height: 80%;
+    width: 100%;
+    background-color: red;
+} 
